@@ -5,6 +5,13 @@ NO TERMINE LA DOCUMENTACION CON SWAGGER ASI QUE HICE ALGO EXTRA QUE HICE ALGO EX
 Esta es una API para gestionar tareas personales, donde cada usuario puede registrar sus tareas, marcarlas como completadas o no, y ver todas sus tareas. Los usuarios deben registrarse e iniciar sesión para acceder a las rutas de tareas , cuando inicien sesion o se registren resiviran un token con el cual podran acceder a las rutas de Tareas .
 
 
+## Características
+
+- **Registro de Usuarios**: Permite a los usuarios registrarse en la plataforma.
+- **Autenticación**: Inicio de sesión y cierre de sesión utilizando tokens de acceso.
+- **Gestión de Tareas**: CRUD (Crear, Leer, Actualizar, Eliminar) de tareas asociadas a cada usuario.
+- **Validaciones**: Uso de FormRequests para validar las solicitudes.
+- **Seguridad**: Rutas protegidas con middleware de autenticación.
 
 
 ## Instalación
