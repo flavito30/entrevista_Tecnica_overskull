@@ -25,6 +25,11 @@ Esta es una API para gestionar tareas personales, donde cada usuario puede regis
       ```bash
    composer require laravel/sanctum
 
+3. Arrancar el servicio 
+   ```bash
+   php artisan serve
+
+
 ## Endpoints
  REGISTRO : 
  Primero que nada devemos registrarnos para tener un usuario en la BD
